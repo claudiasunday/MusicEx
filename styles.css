@@ -1,63 +1,97 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
-body{
-    background-color:lightgray;
+* {
+  /* el "*" selector para todo el archivo */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+  padding: 0;
 }
 
-.jorjaintro{
-    background-image: url("https://umomag.com/wp-content/uploads/2018/06/noticia-jorja-smith-album-debut-lost-and-found-2018-umomag.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size; contain;
-    width: 100%;
-    height: 40vh;
-
-}
-
-
-nav{
-    display: flex;
-    align-items:center
-    width: 1200px;
-    background-color: rgb(25, 33, 41);
-    padding: 14px 0;
+nav {
+  background-color: rgb(25, 33, 41);
+  padding: 14px 0;
 }
 
 .nav-bar {
-    background-color: rgb(25, 33, 41);
-    padding: 14px 0;
-  }
-  .nav-bar a {
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
-  }
-
-.jorjanav{
-    color:antiquewhite
+  background-color: rgb(25, 33, 41);
+  padding: 14px 0;
+}
+.nav-bar a {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
 }
 
-
-.outkast{
-    color:blueviolet
+.nav-bar-ul {
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 
-
-form
-
-container
-
-.formInputContainer2{
-    display:flex;
-    flex-direction: column;
-    margin: 1.5rem 0rem;
+.jorjanav {
+  color: plum;
 }
 
-.amount-of-age-input{
-    widh: 20rem;
-
+.jorjaintro {
+  background-image: url("https://umomag.com/wp-content/uploads/2018/06/noticia-jorja-smith-album-debut-lost-and-found-2018-umomag.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100vw;
 }
-input{
 
+.title {
+  font-size: 9em;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+.introductionBox {
+  padding: 50px;
+  align-content: center;
+}
+
+.introcards {
+  display: flex;
+  justify-content: center;
+}
+.bio {
+  height: 20px;
+  width: 20px;
+}
+
+.discos {
+}
+
+.collabs {
+}
+
+.backgoundsection1 {
+  padding: 20px;
+}
+
+.outkast {
+  color: blueviolet;
+}
+
+.containerAlbums {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInputContainer2 {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0rem;
+}
+
+.amount-of-age-input {
+  widh: 20rem;
+}
+input {
 }
